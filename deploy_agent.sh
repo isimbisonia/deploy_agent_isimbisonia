@@ -103,6 +103,7 @@ start_app() {
 
 ask_dir() {
     read -p "Project name: " n
+    [ -z "$n" ] && echo "ERROR: project name cannot be empty" && return 1
     dir="attendance_tracker_$n"
     [ ! -d "$dir" ] && echo "Project $dir not found." && return 1
     return 0
