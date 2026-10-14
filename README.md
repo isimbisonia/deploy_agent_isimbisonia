@@ -1,5 +1,6 @@
 ## 1. Title and Video:
-- There is project name,one line on what script does and video link
+- The project is called "ATTENDANCE TRACKER DEPLOY AGENT"
+.Here there is video link https://youtu.be/bOKtptdemgc
 
 ## 2. Requirements:
 - I installed bash,python3 and zip
